@@ -16,5 +16,5 @@ class UserRegistrationForm(forms.Form):
         required=True,
         label='Password',
         max_length=32,
-        widget=forms.PasswordInput()
+        widget=forms.PasswordInput(),
     )
