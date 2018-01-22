@@ -8,5 +8,5 @@ from django.db import models
 
 class Vacation(models.Model):
     employee = models.ForeignKey(User)
-    description = models.CharField()
+    description = models.CharField(max_length=100)
     fromdate = models.DateField()
